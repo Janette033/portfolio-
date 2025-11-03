@@ -3,9 +3,9 @@ import Card from "./Card";
 
 export default function Projects() {
   const projects = [
-    { id: 1, title: "AI työkalu prototyyppi", img: "/placeholder.png", desc: "Esittelyteksti projekti 1" },
+    { id: 1, title: "Projekti 1", img: "/placeholder.png", desc: "Esittelyteksti projekti 1" },
     { id: 2, title: "Vaatepuu - itsepalveluna toimiva vaatelainamo", img: "src/assets/projekti2.png", desc: "Tutkimme tiimin kanssa käyttäjien tarpeita ja loimme ratkaisuja, jotka tekevät palvelusta selkeän, luotettavan ja inspiroivan. Lopputuloksena tehtäväni oli rakentaa mockupit kolmesta näkymästä: vaatteen tarkastelu, vaiheittainen palautus ja asuinspiraatio" }, // ✅ polku
-    { id: 3, title: "Verkkosivuja", img: "/placeholder.png", desc: "Esittelyteksti projekti 3" },
+    { id: 3, title: "Projekti 3", img: "/placeholder.png", desc: "Esittelyteksti projekti 3" },
   ];
 
   return (
