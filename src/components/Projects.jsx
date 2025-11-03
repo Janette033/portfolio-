@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "./Card";
 
-// ✅ tuodaan kuva oikein
+
 import proj2Img from "../assets/projekti2.png";
-import placeholder from "../assets/placeholder.png"; // jos tämä tiedosto on siellä
+import placeholder from "../assets/placeholder.png"; 
 
 export default function Projects() {
   const projects = [
@@ -11,7 +11,7 @@ export default function Projects() {
     { 
       id: 2, 
       title: "Vaatepuu - itsepalveluna toimiva vaatelainamo", 
-      img: proj2Img, // ✅ käytetään importattua kuvaa
+      img: proj2Img, 
       desc: 
         "Tutkimme tiimin kanssa käyttäjien tarpeita ja loimme ratkaisuja, jotka tekevät palvelusta selkeän, luotettavan ja inspiroivan. Lopputuloksena tehtäväni oli rakentaa mockupit kolmesta näkymästä: vaatteen tarkastelu, vaiheittainen palautus ja asuinspiraatio"
     },
