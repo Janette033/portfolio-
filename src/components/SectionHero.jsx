@@ -1,4 +1,9 @@
 import React from "react";
+import heroImg from "../assets/palceholder.webp";
+
+
+import React from "react";
+import heroImg from "../assets/palceholder.webp"; // ✅ tuo kuva
 
 export default function SectionHero() {
   return (
@@ -24,12 +29,13 @@ export default function SectionHero() {
         </div>
 
         <div className="hero-right reveal delay-3">
-          <img src="src/assets/palceholder.webp" alt="Hero" />
+          <img src={heroImg} alt="Hero" />
         </div>
       </section>
     </div>
   );
 }
+
 
 
 

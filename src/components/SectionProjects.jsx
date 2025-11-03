@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import proj2 from "../assets/projekti2.png";
+import placeholder from "../assets/placeholder.png";
+
 
 export default function SectionProjects() {
   const [showSkills, setShowSkills] = useState(false);
@@ -13,10 +16,11 @@ export default function SectionProjects() {
   ];
 
   const projects = [
-    { id: 1, title: "AI työkalu prototyyppi", img: "/placeholder.png", desc: "Esittelyteksti projekti 1" },
-    { id: 2, title: "Vaatepuu - itsepalveluna toimiva vaatelainamo", img: "src/assets/projekti2.png", desc: "Tutkimme tiimin kanssa käyttäjien tarpeita ja loimme ratkaisuja, jotka tekevät palvelusta selkeän, luotettavan ja inspiroivan. Lopputuloksena tehtäväni oli rakentaa mockupit kolmesta näkymästä: vaatteen tarkastelu, vaiheittainen palautus ja asuinspiraatio" }, // ✅ fix img path
-    { id: 3, title: "Verkkosivuja", img: "/placeholder.png", desc: "Esittelyteksti projekti 3" },
+    { id: 1, title: "AI työkalu prototyyppi", img: placeholder, desc: "Esittelyteksti projekti 1" },
+    { id: 2, title: "Vaatepuu - itsepalveluna toimiva vaatelainamo", img: proj2, desc: "Tutkimme tiimin kanssa käyttäjien tarpeita ja loimme ratkaisuja, jotka tekevät palvelusta selkeän, luotettavan ja inspiroivan. Lopputuloksena tehtäväni oli rakentaa mockupit kolmesta näkymästä: vaatteen tarkastelu, vaiheittainen palautus ja asuinspiraatio" },
+    { id: 3, title: "Verkkosivuja", img: placeholder, desc: "Esittelyteksti projekti 3" },
   ];
+
 
   return (
     <section className="projects-section">
