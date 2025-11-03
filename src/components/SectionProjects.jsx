@@ -30,7 +30,7 @@ export default function SectionProjects() {
       <div className="projects-header reveal delay-0">
         <h2>Projektit & taidot</h2>
         <p>
-          Täällä on esillä tekemäni projektit sekä osaamiseni teknologiat ja työkalut.
+          Täällä on esillä tekemäni projektit sekä osaamiseni
         </p>
       </div>
 

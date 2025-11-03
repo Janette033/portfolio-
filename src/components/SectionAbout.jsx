@@ -7,7 +7,7 @@ export default function SectionAbout() {
       <div className="about-left">
         <h1 className="reveal delay-0">Minusta</h1>
         <p className="reveal delay-1">
-          Tähän tulee esittely teksti
+          Tähän tulee esittely 
         </p>
 
         <a href="/about" className="btn btn-primary reveal delay-2">
