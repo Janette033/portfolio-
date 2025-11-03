@@ -2,6 +2,7 @@ import React from "react";
 import "../Project2.css";
 
 // ✅ KUVIEN TUONTI
+import natureImg from "../assets/nature.jpg";
 import teemoittelu from "../assets/teemoittelu.png";
 import empatiakartta from "../assets/empatiakartta.png";
 import palvelupolku from "../assets/palvelupolku.png";
@@ -13,7 +14,6 @@ import palautus4 from "../assets/palautus4.png";
 
 import vaatetarkastelu1 from "../assets/vaatteentarkastelu1.png";
 import vaatetarkastelu2 from "../assets/vaatteentarkastelu2.png";
-
 import inspiraatio from "../assets/inspiraatio.png";
 
 export default function Project2() {
@@ -22,7 +22,11 @@ export default function Project2() {
 
       {/* HERO */}
       <section className="cs-hero">
-        <div className="cs-hero__bg" />
+        <div 
+          className="cs-hero__bg"
+          style={{ backgroundImage: `url(${natureImg})` }}
+        />
+
         <div className="cs-hero__inner">
           <p className="eyebrow">Case study</p>
           <h1>Vaatepuu – Itsepalveluna toimiva vaatelaina</h1>
@@ -70,11 +74,11 @@ export default function Project2() {
       <section className="cs-wrap">
         <h2>Prosessi lyhyesti</h2>
         <ol className="cs-steps">
-          <li><span>1</span>Suunnittelimme tutkimuskysymykset ja tavoitteet</li>
-          <li><span>2</span>Toteutimme 15 haastattelua (ikäryhmä 18–35v)</li>
-          <li><span>3</span>Analysoimme aineiston teemoittelun avulla</li>
-          <li><span>4</span>Laadimme persoonat ja palvelupolun</li>
-          <li><span>5</span>Konseptoinnin tuloksena syntyi 3 mockupia</li>
+          <li><span>1</span> Suunnittelimme tutkimuskysymykset ja tavoitteet</li>
+          <li><span>2</span> Toteutimme 15 haastattelua (ikäryhmä 18–35v)</li>
+          <li><span>3</span> Analysoimme aineiston teemoittelun avulla</li>
+          <li><span>4</span> Laadimme persoonat ja palvelupolun</li>
+          <li><span>5</span> Konseptoinnin tuloksena syntyi 3 mockupia</li>
         </ol>
       </section>
 
@@ -84,19 +88,25 @@ export default function Project2() {
 
         <div className="research-block">
           <h3>Teemoittelu</h3>
-          <p>Haastattelujen jälkeen kävimme havainnot yhdessä läpi...</p>
+          <p>
+            Haastattelujen jälkeen kävimme havainnot yhdessä läpi...
+          </p>
           <img src={teemoittelu} alt="Teemoittelukaavio" />
         </div>
 
         <div className="research-block">
           <h3>Empatiakartta</h3>
-          <p>Palvelupolun avulla tarkastelimme käyttäjän matkaa...</p>
+          <p>
+            Palvelupolun avulla tarkastelimme käyttäjän matkaa...
+          </p>
           <img src={empatiakartta} alt="Empatiakartta" />
         </div>
 
         <div className="research-block">
           <h3>Palvelupolku</h3>
-          <p>Empatiakartan avulla syvensimme ymmärrystä...</p>
+          <p>
+            Empatiakartan avulla syvensimme ymmärrystä...
+          </p>
           <img src={palvelupolku} alt="Palvelupolku" />
         </div>
       </section>
