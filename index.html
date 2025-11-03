@@ -5,9 +5,24 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my-portfolio</title>
+
+    <!-- ✅ Apply saved theme instantly to avoid flash -->
+    <script>
+      const savedTheme = localStorage.getItem("theme") || "light";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    </script>
+
+    <!-- Google Fonts: Lexend & Instrument Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wdth,wght@100..125,400..700&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <body class="theme-init">
   </body>
 </html>
+

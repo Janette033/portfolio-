@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SectionAbout() {
+export default function AboutDetail() {
   return (
     <section className="about-section">
       <div className="about-left">
@@ -10,10 +10,6 @@ export default function SectionAbout() {
           responsiivisia verkkosivustoja. Minulle tärkeintä on
           käyttäjäystävällisyys ja visuaalinen selkeys.
         </p>
-
-        <a href="/about" className="btn btn-primary reveal delay-2">
-          Lue lisää
-        </a>
       </div>
 
       <div className="about-right reveal delay-3">
@@ -22,5 +18,3 @@ export default function SectionAbout() {
     </section>
   );
 }
-
-
