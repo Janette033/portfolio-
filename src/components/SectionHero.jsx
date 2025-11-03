@@ -1,10 +1,6 @@
 import React from "react";
 import heroImg from "../assets/palceholder.webp";
 
-
-import React from "react";
-import heroImg from "../assets/palceholder.webp"; // ✅ tuo kuva
-
 export default function SectionHero() {
   return (
     <div className="hero-wrapper">
