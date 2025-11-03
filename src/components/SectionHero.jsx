@@ -8,7 +8,7 @@ export default function SectionHero() {
         <div className="hero-left">
           <h1 className="reveal delay-0">Tervetuloa portfoliooni</h1>
           <p className="reveal delay-1">
-            Tässä voi olla esimerkki tekstiä, joka kuvaa sinua tai työtäsi.
+            Kuvaus
           </p>
 
           <div className="hero-buttons reveal delay-2">

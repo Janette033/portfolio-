@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/profile.png";
+import profileImg from "../assets/profile.jpeg";
 
 export default function SectionAbout() {
   return (
@@ -7,8 +7,7 @@ export default function SectionAbout() {
       <div className="about-left">
         <h1 className="reveal delay-0">Minusta</h1>
         <p className="reveal delay-1">
-          Olen frontend-kehittäjä, joka suunnittelee moderneja ja responsiivisia
-          verkkosivustoja. Minulle tärkeintä on käyttäjäystävällisyys ja visuaalinen selkeys.
+          Tähän tulee esittely teksti
         </p>
 
         <a href="/about" className="btn btn-primary reveal delay-2">
