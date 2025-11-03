@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <a href="mailto:janetterautiainen@hotmail.com?subject=Yhteydenotto">Sähköposti</a>
       <a href="https://github.com/Janette033">GitHub</a>
-      <a href="www.linkedin.com/in/janette-rautiainen-403956335">LinkedIn</a>
+      <a href="http://www.linkedin.com/in/janette-rautiainen-403956335">LinkedIn</a>
       <p>© 2025 My Portfolio</p>
     </footer>
   );
