@@ -1,6 +1,21 @@
 import React from "react";
 import "../Project2.css";
 
+// ✅ KUVIEN TUONTI
+import teemoittelu from "../assets/teemoittelu.png";
+import empatiakartta from "../assets/empatiakartta.png";
+import palvelupolku from "../assets/palvelupolku.png";
+
+import palautus1 from "../assets/palautus1.png";
+import palautus2 from "../assets/palautus2.png";
+import palautus3 from "../assets/palautus3.png";
+import palautus4 from "../assets/palautus4.png";
+
+import vaatetarkastelu1 from "../assets/vaatteentarkastelu1.png";
+import vaatetarkastelu2 from "../assets/vaatteentarkastelu2.png";
+
+import inspiraatio from "../assets/inspiraatio.png";
+
 export default function Project2() {
   return (
     <div className="cs">
@@ -18,8 +33,8 @@ export default function Project2() {
           <div className="cs-hero__meta">
             <span>Rooli: UX / UI-suunnittelu</span>
             <span>Kesto: 6 viikkoa</span>
-            <span>Menetelmät: haastattelut, teemoittelu, synteesi</span>
-            <span>Työkalut: Figma, React</span>
+            <span>Menetelmät: haastattelut, teemoittelu </span>
+            <span>Työkalut: Figma </span>
           </div>
         </div>
       </section>
@@ -69,64 +84,20 @@ export default function Project2() {
 
         <div className="research-block">
           <h3>Teemoittelu</h3>
-          <p>Haastattelujen jälkeen kävimme havainnot yhdessä läpi. Projektissa visuaalista
-             teemoittelua ei vaadittu, mutta halusin syventää omaa tutkimusosaamistani 
-            ja kokosin teemoittelun tiimille. Aluksi kommentit tuntuivat 
-            hajanaisilta, mutta teemoittelu auttoi löytämään selkeät toistuvat tarpeet.
-            Käyttäjille tärkeintä oli saada varmuus vaatteen kunnosta ja istuvuudesta, 
-            ymmärtää palautusprosessi ja löytää helposti inspiroivia lainausvaihtoehtoja. 
-            Nämä kolme teemaa muodostivat pohjan ratkaisuille.</p>
-          <img src="src/assets/teemoittelu.png" alt="Teemoittelukaavio" />
+          <p>Haastattelujen jälkeen kävimme havainnot yhdessä läpi...</p>
+          <img src={teemoittelu} alt="Teemoittelukaavio" />
         </div>
 
         <div className="research-block">
           <h3>Empatiakartta</h3>
-          <p>Palvelupolun avulla tarkastelimme käyttäjän matkaa 
-            ensimmäisestä kiinnostuksesta palautukseen asti. 
-            Huomasimme, että suurin epävarmuus syntyy ennen ensimmäistä 
-            lainausta. Käyttäjä haluaa varmistaa, että prosessi on turvallinen, 
-            helppo ja selkeä. Myös palautusvaihe herätti kysymyksiä: 
-            “Teen­kö tämän oikein?” Polku auttoi meitä tunnistamaan 
-            hetket, joissa käyttäjä tarvitsee konkreettista tukea ja mielenrauhaa.</p>
-          <img src="src/assets/empatiakartta.png" alt="Empatiakartta" />
+          <p>Palvelupolun avulla tarkastelimme käyttäjän matkaa...</p>
+          <img src={empatiakartta} alt="Empatiakartta" />
         </div>
 
         <div className="research-block">
           <h3>Palvelupolku</h3>
-          <p>Empatiakartan avulla syvensimme ymmärrystä käyttäjän tunteista ja motiiveista. 
-            Haastateltavat olivat innostuneita lainaamisesta, mutta halusivat 
-            varmuutta ennen kokeilua. Esille nousi tarve luotettavuudelle, 
-            inspiraatiolle ja helppoudella. Halutaan kokeilla uutta, 
-            mutta matalalla kynnyksellä ja ilman virheen pelkoa. Kartta auttoi meitä 
-            keskittymään siihen, että palvelun täytyy tuntua rohkaisevalta ja selkeältä.</p>
-          <img src="src/assets/palvelupolku.png" alt="Palvelupolku" />
-        </div>
-      </section>
-
-      {/* INSIGHTS */}
-      <section className="cs-wrap">
-        <h2>Keskeiset löydökset</h2>
-        <div className="cs-insights">
-          <div className="cs-insight">
-            <strong>“En tiedä onko vaate oikeasti hyvässä kunnossa”</strong>
-            <p>Teemoittelussa ja empatiakartassa tämä näkyi toistuvina huomioina kuten:
-            “Onko vaate hyvälaatuinen?”, “Miten vaatteet puhdistetaan?”, “Miten laatua valvotaan?”
-            Tämä johti vaatteiden kuntohistorian, materiaalitietojen ja kuvien korostamiseen UI:ssa.</p>
-          </div>
-          <div className="cs-insight">
-            <strong>“Palautus mietityttää”</strong>
-            <p>Palvelupolussa ja empatiakartassa käyttäjät kuvailivat epävarmuutta palautusvaiheessa:
-            “Teen­kö tämän oikein?”, “Mitä pitää tehdä vaiheittain?”
-            Useampi epäili, miten prosessi toimii ilman henkilökuntaa.</p>
-          </div>
-          <div className="cs-insight">
-            <strong>“En tiedä mistä aloittaa”</strong>
-            <p>Alkuvaiheen epäröinti näkyi teemoittelussa ja haastatteluissa. 
-              Käyttäjät kaipasivat suosituksia, inspiraatiota ja 
-              helppoa tapaa löytää sopivia vaatteita ilman pitkää selausta. 
-              Palvelupolussa aloitusvaihe oli tunnepuolelta
-               epävarmin, mikä vahvisti tarpeen matalan kynnyksen käyttöpolulle.</p>
-          </div>
+          <p>Empatiakartan avulla syvensimme ymmärrystä...</p>
+          <img src={palvelupolku} alt="Palvelupolku" />
         </div>
       </section>
 
@@ -136,29 +107,29 @@ export default function Project2() {
 
         <div className="mockup-group">
           <h3>Itsepalvelupalautus (4 vaihetta)</h3>
-          <p>Selkeä, vaiheistettu itsepalvelupalautus, joka vähentää epävarmuutta.</p>
+          <p>Selkeä, vaiheistettu itsepalvelupalautus...</p>
           <div className="mockup-row">
-            <img src="src/assets/palautus1.png" alt="Palautus vaihe 1" />
-            <img src="src/assets/palautus2.png" alt="Palautus vaihe 2" />
-            <img src="src/assets/palautus3.png" alt="Palautus vaihe 3" />
-            <img src="src/assets/palautus4.png" alt="Palautus vaihe 4" />
+            <img src={palautus1} alt="Palautus vaihe 1" />
+            <img src={palautus2} alt="Palautus vaihe 2" />
+            <img src={palautus3} alt="Palautus vaihe 3" />
+            <img src={palautus4} alt="Palautus vaihe 4" />
           </div>
         </div>
 
         <div className="mockup-group">
           <h3>Vaatteen tarkastelu & varaus (2 näkymää)</h3>
-          <p>Läpinäkyvät materiaalitiedot, kuntohistoria ja selkeä varaus.</p>
+          <p>Läpinäkyvät materiaalitiedot...</p>
           <div className="mockup-row">
-            <img src="src/assets/vaatteentarkastelu1.png" alt="Vaatteen katselu 1" />
-            <img src="src/assets/vaatteentarkastelu2.png" alt="Vaatteen katselu 2" />
+            <img src={vaatetarkastelu1} alt="Vaatteen katselu 1" />
+            <img src={vaatetarkastelu2} alt="Vaatteen katselu 2" />
           </div>
         </div>
 
         <div className="mockup-group">
           <h3>Tilannekohtainen inspiraatio</h3>
-          <p>Tilannepohjaiset asuehdotukset helpottavat aloitusta.</p>
+          <p>Tilannepohjaiset asuehdotukset...</p>
           <div className="mockup-row">
-            <img src="src/assets/inspiraatio.png" alt="Asuinspiraatio" />
+            <img src={inspiraatio} alt="Asuinspiraatio" />
           </div>
         </div>
       </section>
@@ -166,23 +137,21 @@ export default function Project2() {
       {/* HAASTEET & OPIT */}
       <section className="cs-wrap cs-footer">
         <h2>Haasteet & opit</h2>
-
         <div className="cs-impact">
           <div>
             <h4>Haasteet</h4>
             <ul>
               <li>Kuinka rakentaa luottamus ilman fyysistä myymälää</li>
               <li>Käyttäjille vieras itsepalvelumalli</li>
-              <li>Monimutkainen palautusprosessin viestintä</li>
+              <li>Toimeksianto oli osittain epäselvä ja aikaa oli rajoitetusti</li>
             </ul>
           </div>
 
           <div>
             <h4>Mitä opin</h4>
             <ul>
-              <li>Läpinäkyvyys → luottamus → käyttö kasvaa</li>
-              <li>Visualisoitu vaiheistus poistaa ahdistusta</li>
-              <li>Tilannepohjainen inspiraatio madaltaa kynnystä</li>
+              <li>Käyttäjätutkimus</li>
+              <li>Käyttöliittymäsuunnittelu</li>
             </ul>
           </div>
         </div>
@@ -190,5 +159,6 @@ export default function Project2() {
     </div>
   );
 }
+
 
 
